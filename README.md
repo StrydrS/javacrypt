@@ -1,4 +1,5 @@
 Program is designed to take user input in the form of a file, and either decrypt or encrypt the file based on the user's keyboard input.
+Below are instructions on how to use the program. Do not include "" when you enter file locations. 
 
 To use:
 
