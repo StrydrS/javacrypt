@@ -1,18 +1,18 @@
-## Getting Started
+Program is designed to take user input in the form of a file, and either decrypt or encrypt the file based on the user's keyboard input.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+To use:
 
-## Folder Structure
+ENCRYPT:
+Edit message in src/file.txt to your desired message.
+When prompted, type "encrypt".
+When prompted for a password, enter the password of your choice. 
+When prompted for file location, type "src/file.txt"
 
-The workspace contains two folders by default, where:
+Your message has been encrypted to the file "output.txt".
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+DECRYPT:
+When prompted, type "decrypt".
+When prompted for a password, enter the password that corresponds to your encrypted message.
+When prompted for file location, type "output.txt".
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Your original message will be decrypted and output in the terminal.
